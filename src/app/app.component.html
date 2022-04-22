@@ -1,0 +1,47 @@
+<h1>TITOLO</h1>
+
+<div class="box">
+  <p class="logpage">INSERT YOUR CREDENTIALS</p>
+  <form>
+    <label for="user">Username</label>
+    <input
+      type="text"
+      id="user"
+      name="username"
+      placeholder="Your username.."
+    />
+    <p></p>
+    <label for="psw">Password</label>
+    <input type="text" id="psw" name="password" placeholder="Your password.." />
+  </form>
+  <div class="buttons">
+    <button class="login" onclick="checkLogin()">Login</button>
+
+    <button class="signin" onclick="checkSignin()">Sign in</button>
+  </div>
+</div>
+
+<div id="ciao"></div>
+
+<script>
+
+    function checkSignin(){
+      /*String user = "";
+      String psw = "";
+
+      user = document.getElementById("user").innerText;
+      psw = document.getElementById("psw").innerHTML;
+  */
+      document.getElementById("demo").innerHTML = "Dp";
+    }
+
+    function checkLogin(){
+      /*String user = "";
+      String psw = "";
+
+      user = document.getElementById("user").innerText;
+      psw = document.getElementById("psw").innerHTML;
+  */
+      document.getElementById("demo").innerHTML = "Dp";
+    }
+</script>
